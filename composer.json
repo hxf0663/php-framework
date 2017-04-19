@@ -1,0 +1,22 @@
+{
+        "name":"HXF PHP",
+        "description":"PHP Framework",
+        "type":"Framework",
+        "keyword":[
+                "PHP","PHP Framework"
+        ],
+        "require":{
+                "php":">=5.3.0",
+                "filp/whoops":"*",
+                "symfony/var-dumper":"*",
+                "catfan/medoo":"1.2",
+                "twig/twig":"*",
+                "monolog/monolog": "1.0.*"
+        },
+        "repositories": {
+                "packagist": {
+                        "type": "composer",
+                        "url": "https://packagist.phpcomposer.com"
+                }
+        }
+}

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>{{ hello }}</h1>
+<ul>
+	{% for val in data %}
+	<li>
+		<div>
+			<h1>{{ val.sort }}</h1>
+			<p>{{ val.name }}</p>
+		</div>
+	</li>
+	{% endfor %}
+</ul>
+{% endblock %}
