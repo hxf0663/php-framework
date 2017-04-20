@@ -8,9 +8,9 @@
 //MeDoo数据库框架连接
 return array(
 	'database_type' => 'mysql',
-	'database_name' => 'test',
+	'database_name' => 'istest',
 	'server' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
+	'username' => 'istest',
+	'password' => 'istest',
 	'charset' => 'utf8'
 );
